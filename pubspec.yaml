@@ -1,0 +1,71 @@
+name: flutter_clean_architecture_bloc_news_app
+description: >
+  A Flutter news app demonstrating Clean Architecture with BLoC pattern for state management.
+  Features List-Detail navigation, Pull-to-Refresh, offline caching, and comprehensive 
+  unit tests covering Presentation, Domain, and Data layers.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  # BLoC pattern for predictable state management
+  flutter_bloc: ^9.1.1
+  # Value equality for state comparison
+  equatable: ^2.0.8
+
+  # Dependency Injection
+  # Service locator for dependency injection
+  get_it: ^9.2.0
+
+  # Functional Programming
+  # Either type for functional error handling
+  dartz: ^0.10.1
+
+  # Networking
+  # HTTP client for API requests
+  http: ^1.6.0
+  # Check internet connectivity
+  internet_connection_checker: ^3.0.1
+
+  # Local Storage
+  # Persistent key-value storage for caching
+  shared_preferences: ^2.5.4
+
+  # Navigation
+  # Declarative routing
+  go_router: ^17.1.0
+
+  # WebView
+  # Display web content for article detail
+  webview_flutter: ^4.13.1
+
+  # Image Loading
+  # Cached network images with placeholder support
+  cached_network_image: ^3.4.1
+
+  # Environment Variables
+  # Load environment variables from .env file
+  flutter_dotenv: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # Mocking library for unit tests
+  mocktail: ^1.0.4
+  # BLoC testing utilities
+  bloc_test: ^10.0.0
+  # Lint rules
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env

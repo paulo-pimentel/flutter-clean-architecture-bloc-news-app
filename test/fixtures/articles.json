@@ -1,0 +1,32 @@
+{
+  "status": "ok",
+  "totalResults": 2,
+  "articles": [
+    {
+      "source": {
+        "id": "test-source",
+        "name": "Test News"
+      },
+      "author": "John Doe",
+      "title": "Test Article Title",
+      "description": "This is a test article description.",
+      "url": "https://example.com/article",
+      "urlToImage": "https://example.com/image.jpg",
+      "publishedAt": "2025-02-14T10:00:00Z",
+      "content": "Full article content here..."
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Another Source"
+      },
+      "author": null,
+      "title": "Second Article",
+      "description": null,
+      "url": "https://example.com/article2",
+      "urlToImage": null,
+      "publishedAt": "2025-02-13T08:30:00Z",
+      "content": null
+    }
+  ]
+}

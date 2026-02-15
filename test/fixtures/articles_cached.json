@@ -1,0 +1,13 @@
+[
+  {
+    "title": "Cached Article Title",
+    "description": "This is a cached article description.",
+    "urlToImage": "https://example.com/cached-image.jpg",
+    "publishedAt": "2025-02-14T10:00:00.000Z",
+    "author": "Jane Smith",
+    "url": "https://example.com/cached-article",
+    "source": {
+      "name": "Cached Source"
+    }
+  }
+]
