@@ -1,12 +1,12 @@
 import 'package:dartz/dartz.dart';
-import 'package:flutter_news_portfolio/core/error/exceptions.dart';
-import 'package:flutter_news_portfolio/core/error/failures.dart';
-import 'package:flutter_news_portfolio/core/network/network_info.dart';
-import 'package:flutter_news_portfolio/features/articles/data/datasources/article_local_data_source.dart';
-import 'package:flutter_news_portfolio/features/articles/data/datasources/article_remote_data_source.dart';
-import 'package:flutter_news_portfolio/features/articles/data/models/article_model.dart';
-import 'package:flutter_news_portfolio/features/articles/data/repositories/article_repository_impl.dart';
-import 'package:flutter_news_portfolio/features/articles/domain/entities/article.dart';
+import 'package:flutter_clean_architecture_bloc_news_app/core/error/exceptions.dart';
+import 'package:flutter_clean_architecture_bloc_news_app/core/error/failures.dart';
+import 'package:flutter_clean_architecture_bloc_news_app/core/network/network_info.dart';
+import 'package:flutter_clean_architecture_bloc_news_app/features/articles/data/datasources/article_local_data_source.dart';
+import 'package:flutter_clean_architecture_bloc_news_app/features/articles/data/datasources/article_remote_data_source.dart';
+import 'package:flutter_clean_architecture_bloc_news_app/features/articles/data/models/article_model.dart';
+import 'package:flutter_clean_architecture_bloc_news_app/features/articles/data/repositories/article_repository_impl.dart';
+import 'package:flutter_clean_architecture_bloc_news_app/features/articles/domain/entities/article.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 

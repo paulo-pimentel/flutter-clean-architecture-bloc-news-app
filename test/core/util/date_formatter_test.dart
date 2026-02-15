@@ -1,4 +1,4 @@
-import 'package:flutter_news_portfolio/core/util/date_formatter.dart';
+import 'package:flutter_clean_architecture_bloc_news_app/core/util/date_formatter.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

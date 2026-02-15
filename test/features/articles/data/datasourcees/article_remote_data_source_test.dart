@@ -1,7 +1,7 @@
+import 'package:flutter_clean_architecture_bloc_news_app/core/error/exceptions.dart';
+import 'package:flutter_clean_architecture_bloc_news_app/features/articles/data/datasources/article_remote_data_source.dart';
+import 'package:flutter_clean_architecture_bloc_news_app/features/articles/data/models/article_model.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:flutter_news_portfolio/core/error/exceptions.dart';
-import 'package:flutter_news_portfolio/features/articles/data/datasources/article_remote_data_source.dart';
-import 'package:flutter_news_portfolio/features/articles/data/models/article_model.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:http/http.dart' as http;
 import 'package:mocktail/mocktail.dart';

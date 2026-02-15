@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
-import 'package:flutter_news_portfolio/core/error/failures.dart';
-import 'package:flutter_news_portfolio/features/articles/domain/entities/article.dart';
-import 'package:flutter_news_portfolio/features/articles/domain/repositories/article_repository.dart';
-import 'package:flutter_news_portfolio/features/articles/domain/usecases/get_articles.dart';
+import 'package:flutter_clean_architecture_bloc_news_app/core/error/failures.dart';
+import 'package:flutter_clean_architecture_bloc_news_app/features/articles/domain/entities/article.dart';
+import 'package:flutter_clean_architecture_bloc_news_app/features/articles/domain/repositories/article_repository.dart';
+import 'package:flutter_clean_architecture_bloc_news_app/features/articles/domain/usecases/get_articles.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 

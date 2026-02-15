@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:flutter_news_portfolio/core/error/exceptions.dart';
-import 'package:flutter_news_portfolio/features/articles/data/datasources/article_local_data_source.dart';
-import 'package:flutter_news_portfolio/features/articles/data/models/article_model.dart';
+import 'package:flutter_clean_architecture_bloc_news_app/core/error/exceptions.dart';
+import 'package:flutter_clean_architecture_bloc_news_app/features/articles/data/datasources/article_local_data_source.dart';
+import 'package:flutter_clean_architecture_bloc_news_app/features/articles/data/models/article_model.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:shared_preferences/shared_preferences.dart';
